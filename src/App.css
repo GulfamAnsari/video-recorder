@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+.recorder {
+  width: 600px;
+  height: 400px;
+  margin: 12px auto;
+  border-radius: 4px;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.button {
+  padding: 4px 40px;
+  font-size: 1rem;
+  border-radius: 30px;
+  width: fit-content;
+}
+.recording-start {
+  background-color: #dc3545;
+  color: aliceblue;
+}
+
+.preview {
+  background-color: rgb(233, 164, 26);
+  color: aliceblue;
+}
+
+.recording-stop {
+  background-color: #dc3545;
+  color: aliceblue;
+}
+
+.button-groups {
+  display: flex;
+  width: 600px;
+  margin: 12px auto;
+  border-radius: 4px;
+  justify-content: center;
+  gap: 4px;
+}
+
+.disable {
+  background-color: rgb(185, 179, 179);
+  color: rgb(76, 77, 76);
+  cursor: not-allowed;
+}
+
+.handle-download {
+  background-color:#28a745;
+  color: rgb(255, 255, 255);
+}
+
+.error {
+  background: #b90202;
+  color: white;
+}
+
+.recording-length {
+  margin-top: 10px;
+}
+
+.recording-length span {
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px 4px;
+}
+
+.pause {
+  background: #9c571b;
+  color: white;
+}
